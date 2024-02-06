@@ -18,10 +18,10 @@ const columns = [
   }
 ]
 
-export default function JobListing() {
+export default function JobListingPage() {
   const navigate = useNavigate()
   const [listingDialogOpen, setListingDialogOpen] = useState(false)
-  // const [listingDetails, setListingDetails] = useState()
+  const [listingDetails, setListingDetails] = useState()
   const theme = useTheme()
 
   console.log(FakeListing[1])
